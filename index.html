@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+</head>
+
+<body>
+    <h1>Text Fields</h1>
+    <label for="name">Name:</label>
+    <input type="text" name="name" size="10">
+    <br><br>
+    <label for="name">Password:</label>
+    <input type="text" name="password" size="10">
+    <br><br>
+    <input type="submit" value="Submit">
+    <br><br>
+
+    <h1>Radio Buttons</h1>
+    <p>What kind of shirt are you wearing</p>
+    Shade:<label><input type="radio" name="Shade">Dark</label>
+    <label><input type="radio" name="Shade" >Light</label><br><br> Size:
+    <label><input type="radio" name="Size"/>Small</label>
+    <label><input type="radio" name="Size"/>Medium</label>
+    <label><input type="radio" name="Size"/>Large</label>
+    <br><br>
+    <input type="submit" value="Submit">
+    <br><br>
+
+    <h1>Check Boxes</h1>
+
+    <p>Select a favorite.</p>
+    <label><input type="checkbox" name="option"/>Option 1</label><br>
+    <label><input type="checkbox" name="option"/>Option 2</label><br>
+    <label><input type="checkbox" name="option"/>Option 3</label><br>
+    <label><input type="checkbox" name="option"/>Option 4</label><br>
+    <br><br>
+    <input type="submit" value="Submit">
+    <br><br>
+
+    <h1>Drop Down Lists</h1>
+    Your Degree?
+    <select>
+    <option value="">Choose One</option>
+    <option value="">Choose This One</option>
+    </select>
+    <input type="submit" value="Submit">
+    <br><br>
+
+    <h1>Selection Forms</h1>
+    <br> Musical Taste
+    <br><br>
+    <select size="4">        
+    <option  value="">Hip Hop</option>       
+    <option  value="">Ska</option>       
+    <option  value="">Jazz</option>
+    <option  value="">Country</option>
+    <option  value="">Pop</option>
+    <option  value="">Rock&Roll</option>
+    <option  value="">Techno</option>
+    <option  value="">Classic</option>
+    <option  value="">Rave</option>
+    
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+    <br><br>
+
+    <h1>Text Areas</h1>
+    <textarea id="comment" placeholder="Enter Comments Here" rows="5" cols="20"></textarea>
+    <br><br>
+    <input type="submit" value="Submit">
+    <br><br>
+
+    <h1>Upload Forms</h1>
+
+
+
+
+    <input type="file" id="browse" name="fileupload" style="display: none" />
+    <input type="text" id="filename" readonly="true" />
+    <input type="button" value="Browse..." id="fakeBrowse" onclick="HandleBrowseClick();" />
+
+    <br><br>
+
+    <iframe width="1280" height="720" src="//youtube.com/embed/HiN6Ag5-DrU?VQ=HD720" frameborder="0" allowfullscreen></iframe>
+
+
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+    <div style='overflow:hidden;height:600px;width:1000px;'>
+        <div id='gmap_canvas' style='height:600px;width:1000px;'>
+
+        </div>
+        <div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div>
+        <div><small><a href="http://buyproxies.io/">elite proxies</a></small></div>
+        <style>
+            #gmap_canvas img {
+                max-width: none!important;
+                background: none!important
+            }
+        </style>
+    </div>
+
+
+    <audio src="audio.mp3" controls autoplay></audio>
+
+    <video width="1280" height="720" poster="/images/swan.jpg" controls>
+   <source src="video.mp4" type="video/mp4">
+   
+   
+</video>
+
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

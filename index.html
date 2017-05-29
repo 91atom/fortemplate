@@ -5,13 +5,6 @@
     <meta charset="UTF-8">
     <title>Test</title>
     <link rel="stylesheet" href="css/index.css" type="text/css" />
-    <style='overflow:hidden;height:600px;width:1000px;'></style>
-        <style>
-            #gmap_canvas img {
-                max-width: none!important;
-                background: none!important
-            }
-        </style>
 </head>
 
 <body>
@@ -86,7 +79,7 @@
 
 
 
-    <input type="file" id="browse" name="fileupload" style="display: none" />
+    <input type="file" id="browse" name="fileupload" />
     <input type="text" id="filename" readonly="true" />
     <input type="button" value="Browse..." id="fakeBrowse" onclick="HandleBrowseClick();" />
 
@@ -97,13 +90,12 @@
 
 
     <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-    <div>
-        <div id='gmap_canvas' style='height:600px;width:1000px;'>
+    <div class="over">
+        <div id='gmap_canvas'>
 
         </div>
-        <div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div>
-        <div><small><a href="http://buyproxies.io/">elite proxies</a></small></div>
-
+        
+        
     </div>
 
 

@@ -1,0 +1,14 @@
+
+   #gmap_canvas img {
+    max-width: none!important;
+    background: none!important;
+    height:600px;
+    width:1000px;
+            }
+   #browse{
+       display: none;
+   }
+   
+   .over{
+       overflow:hidden;height:600px;width:1000px;
+   }
